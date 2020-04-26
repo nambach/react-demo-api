@@ -2,9 +2,9 @@ import React from 'react';
 import { Switch, Route, Link } from "react-router-dom";
 import { Navbar, Nav, Form, FormControl, Button, Container } from 'react-bootstrap';
 
-import Home from './routes/home';
-import Detail from './routes/detail';
-import Setting from './routes/setting';
+import Home from './pages/home';
+import Detail from './pages/detail';
+import Setting from './pages/setting';
 
 import './app.style.scss';
 

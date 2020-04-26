@@ -11,7 +11,7 @@ const setUser = (state, action) => {
     ...state,
     users
   };
-}
+};
 
 const homeReducer = (state = initialState, action) => {
   switch (action.type) {
